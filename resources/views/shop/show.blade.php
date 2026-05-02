@@ -1,5 +1,5 @@
 @extends('layouts.store')
-@section('title', $product->product_name . ' - BreadHouse')
+@section('title', $product->product_name . ' - Aziziscake')
 
 @section('content')
 <div class="container py-5">

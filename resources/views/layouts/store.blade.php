@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'BreadHouse') - Toko Roti Artisan</title>
+<title>@yield('title', 'Aziziscake') - Toko Kue Premium</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-store sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="{{ route('home') }}"><i class="bi bi-basket2-fill me-2"></i>BreadHouse</a>
+<a class="navbar-brand" href="{{ route('home') }}"><i class="bi bi-basket2-fill me-2"></i>Aziziscake</a>
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -86,8 +86,8 @@
 <!-- Footer -->
 <footer class="mt-auto">
     <div class="container text-center">
-        <p class="mb-1"><i class="bi bi-basket2-fill me-1"></i><strong>BreadHouse</strong> — Roti Artisan Premium</p>
-        <small>&copy; {{ date('Y') }} BreadHouse Indonesia. All rights reserved.</small>
+<p class="mb-1"><i class="bi bi-basket2-fill me-1"></i><strong>Aziziscake</strong> — Toko Kue Premium</p>
+<small>&copy; {{ date('Y') }} Aziziscake Indonesia. All rights reserved.</small>
     </div>
 </footer>
 

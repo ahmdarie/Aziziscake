@@ -10,15 +10,15 @@
                 <p class="text-muted small mb-4">Pesanan #{{ $order->id }} &bull; Total: <strong>Rp {{ number_format($order->total_price, 0, ',', '.') }}</strong></p>
 
                 @if($order->payment->payment_method === 'bank_transfer')
-                <div class="alert alert-info">
+<div class="alert alert-info">
                     <strong>Rekening Tujuan Transfer:</strong><br>
-                    BCA - <strong>1234 5678 90</strong> a/n BreadHouse Indonesia<br>
-                    BRI - <strong>9876 5432 10</strong> a/n BreadHouse Indonesia
+                    BCA - <strong>1234 5678 90</strong> a/n Aziziscake Indonesia<br>
+                    BRI - <strong>9876 5432 10</strong> a/n Aziziscake Indonesia
                 </div>
                 @elseif($order->payment->payment_method === 'e_wallet')
                 <div class="alert alert-info">
                     <strong>Nomor E-Wallet:</strong><br>
-                    GoPay / OVO / DANA: <strong>0812-3456-7890</strong> (Admin BreadHouse)
+                    GoPay / OVO / DANA: <strong>0812-3456-7890</strong> (Admin Aziziscake)
                 </div>
                 @endif
 

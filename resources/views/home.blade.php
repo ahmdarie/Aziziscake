@@ -1,5 +1,5 @@
 @extends('layouts.store')
-@section('title', 'BreadHouse - Roti Artisan Premium')
+@section('title', 'Aziziscake - Toko Kue Premium')
 
 @section('content')
 <!-- ── Hero ── -->
